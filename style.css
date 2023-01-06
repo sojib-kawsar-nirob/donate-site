@@ -38,7 +38,7 @@
     transition: 2s;
 }
 .btn:hover{
-    background-color: transparent;
+    background-color: rgb(235, 235, 235);
     color: #FF5959;
 }
 .donate{
@@ -140,4 +140,29 @@
     padding: 50px 20px;
     text-align: left;
     box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+}
+.image{
+    margin: 10px 10%;
+}
+.first-part{
+    display: flex;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.half-width{
+    width: 50%;
+    padding-right: 70px;
+}
+.half-width h2{
+    font-size: 35px;
+    padding-bottom: 15px;
+}
+.half-width p{
+    font-size: 18px;
+    padding-bottom: 30px;
+    color: #707070;
+}
+.first-img{
+    width: 100%;
+    border-radius: 50px;
 }
