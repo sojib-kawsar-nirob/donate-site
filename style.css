@@ -42,7 +42,9 @@
     color: #FF5959;
 }
 .donate{
-    margin: 100px 250px;
+    margin: 100px 250px 50px 250px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
 }
 .donate-head{
     text-align: center;
@@ -50,6 +52,7 @@
 .donate-head h2{
     font-size: 45px;
     padding-bottom: 20px;
+    padding-top: 30px;
 }
 .donate-head p{
     color: #f88b8b;
@@ -79,12 +82,62 @@
     color: #B3B3B3;
     text-align: center;
     font-weight: 400;
-    padding-bottom: 7px;
-    border-bottom: 1px solid #DADADA;
+    padding-bottom: 10px;
+   border-bottom: 1px solid #B3B3B3;
+    
 }
 .more{
     text-align: center;
 }
 .more .btn{
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.donate-plan{
+    text-align: center;
+    margin: 20px 10%;
+}
+.plan-details h2{
+    font-size: 45px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+.plan-details p{
+    color: #f88b8b;
+    letter-spacing: 2px;
+   padding: 0 100px;
+    text-align: center;
+}
+.card{
+    display: flex;
+    margin: 50px 0;
+}
+.box h4{
+    padding: 20px 0;
+    font-size: 24px;
+}
+.box p{
+    color:  #707070;
+}
+.box-1{
+    background-color: rgba(79, 157, 166, 0.1);
+    margin: 20px;
+    padding: 50px 20px;
+    text-align: left;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+.box-2{
+    background-color: rgba(255, 89, 89, 0.1);
+    margin: 20px;
+    padding: 50px 20px;
+    text-align: left;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+}
+.box-3{
+    background-color: #FFF4D6;
+    margin: 20px;
+    padding: 50px 20px;
+    text-align: left;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
 }
