@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner{
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(#12121200 0%,#383838 100% ), url("img/bg-f.jpg");
+}
+.banner-details {
+    align-items: center;
+    text-align: center;
+    color: #f88b8b;
+    padding: 15% 20% 0% 20%;
+    justify-content: center;
+}
+.banner-details h1{
+    font-size: 65px;
+    padding:10px;
+}
+.banner-details p{
+    padding-bottom: 20px;
+    color: rgb(238, 186, 186);
+    letter-spacing: 2px;
+}
+.btn{
+    font-size: 20px;
+    background-color: #FF5959;
+    font-weight: bold;
+    padding: 10px 30px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    transition: 2s;
+}
+.btn:hover{
+    background-color: transparent;
+    color: #FF5959;
+}
+.donate{
+    margin: 100px 250px;
+}
+.donate-head{
+    text-align: center;
+}
+.donate-head h2{
+    font-size: 45px;
+    padding-bottom: 20px;
+}
+.donate-head p{
+    color: #f88b8b;
+    letter-spacing: 2px;
+}
+.amount {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.amount p{
+    padding:40px 25px;
+    background-color: #FAFAFA;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 20px;
+    color:  #707070;
+}
+.amount .ex{
+    border:2px solid #FF5959;
+    color: #FF5959;
+    background-color: #FFEEEE;
+}
+.donate h3{
+    font-size: 18px;
+    color: #B3B3B3;
+    text-align: center;
+    font-weight: 400;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #DADADA;
+}
+.more{
+    text-align: center;
+}
+.more .btn{
+    margin-top: 30px;
+}
